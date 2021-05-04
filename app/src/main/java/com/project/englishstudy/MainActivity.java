@@ -353,7 +353,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
                 drawerLayout.closeDrawers();
-                data = MyValue.val67ue;
+                data = MyValue.value;
                 viewPagerInit();
                 listView.setAdapter(adapter);
             }

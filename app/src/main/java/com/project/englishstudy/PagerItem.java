@@ -32,14 +32,14 @@ public class PagerItem extends PagerAdapter {
     private String wordColor()
     {
         if(TextStatus.wordStatus==false)
-            return "#64829a";
+            return "#ffffff";
         else
-            return "#9FF6A7";
+            return "#3E3E3E";
     }
     private String meanColor()
     {
         if(TextStatus.meanStatus == false)
-            return "#39709b";
+            return "#272727";
         else
             return "#ffffff";
     }

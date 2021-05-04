@@ -27,7 +27,7 @@
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_alignRight="@id/drawer_top"
-            android:backgroundTint="#F31414"
+            android:backgroundTint="#FFFFFF"
             android:background="@android:drawable/ic_menu_close_clear_cancel"/>
     </RelativeLayout>
     <!--메뉴-->
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:background="@color/themeBtn"
+            android:background="@drawable/button_2"
             android:text="저장하기"
             android:textStyle="bold"
             android:id="@+id/engSave" />
@@ -51,7 +51,7 @@
             android:text="추가하기"
             android:textStyle="bold"
             android:layout_margin="5dp"
-            android:background="@color/themeBtn"
+            android:background="@drawable/button_2"
             android:id="@+id/addMenu"
             android:layout_weight="1"/>
     </LinearLayout>
